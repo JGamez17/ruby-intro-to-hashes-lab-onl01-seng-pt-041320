@@ -7,18 +7,25 @@ def actor
 end
 
 def monopoly
-	monopoly = {}
+	monopoly = {:railroads => {}}
 
 end
 
-def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
+def monopoly_with_second_tier
+	{:railroads => {
+	 :pieces => 4, 
+	 :name {},
+	 :rent_in_dollar => {}
+	}
+}	
 end
 
 def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+	{:railroads => {
+	 :pieces => 4,
+	 :name => {},
+	 
 end
 
 def monopoly_with_fourth_tier
