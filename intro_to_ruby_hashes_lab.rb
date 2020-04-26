@@ -43,5 +43,5 @@ end
 
 
 def monopoly_with_fourth_tier
-  monopoly 
+  monopoly = {:railroads => {
 
